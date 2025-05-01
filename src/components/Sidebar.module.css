@@ -1,0 +1,146 @@
+.sidebar {
+    background-color: #0b2e26;
+    width: 260px;
+    padding: 1.5rem 1rem;
+    color: #e0f2e9;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* space between nav and footer */
+    box-shadow: 4px 0 12px rgba(0, 0, 0, 0.4);
+    position: relative;
+    transition: width 0.3s ease;
+  }
+  
+  .sidebarClosed {
+    width: 70px;
+    align-items: center;
+    padding: 1.5rem 0.5rem;
+  }
+  
+  .toggleBtn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    color: #e0f2e9;
+    cursor: pointer;
+  }
+  
+  .header {
+    margin-top: 2.5rem;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #cecece;
+  }
+  
+  .logo {
+    font-size: 2.5rem;
+  }
+  
+  .nav {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  
+  .navLink {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.5rem;
+    color: #b9d8cc;
+    text-decoration: none;
+    transition: background 0.2s, color 0.2s;
+  }
+  
+  .navLink:hover {
+    background-color: #14483d;
+    color: #ffffff;
+  }
+  
+  .activeLink {
+    background-color: #1a594a;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .icon {
+    min-width: 24px;
+    height: 24px;
+  }
+  
+  .label {
+    white-space: nowrap;
+  }
+  
+  .footer {
+    margin-bottom: 2rem;
+    text-align: center;
+    gap: 3rem;
+  }
+  
+  .logoutBtn {
+    background: none;
+    border: none;
+    color: #e0f2e9;
+    cursor: pointer;
+    display: flex;
+    align-items: end;
+    gap: 0.75rem;
+    padding: 1.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: background 0.2s;
+  }
+  
+  .logoutBtn:hover {
+    background-color: #14483d;
+  }
+  
+  
+  .profileContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+    padding: 0 0.5rem;
+  }
+  
+  .profileBtn {
+    background: grey;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    border-radius: 9999px;
+    transition: background 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .profileBtn:hover {
+    background-color: #14483d;
+  }
+  
+  .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 9999px;
+    object-fit: cover;
+    border: 2px solid #cde5db;
+  }
+  
+  .welcome {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #e0f2e9;
+    white-space: nowrap;
+  }
+  

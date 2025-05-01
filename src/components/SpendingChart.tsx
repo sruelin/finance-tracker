@@ -20,7 +20,7 @@ const data = [
 
 const SpendingChart = () => {
   return (
-    <div style={{ width: '100%', height: 400, marginTop: '2rem' }}>
+    <div style={{ width: '100%', height: 500, marginTop: '2rem' }}>
       <h2>Spending by Category</h2>
       <ResponsiveContainer width="100%" height="100%">
         <BarChart data={data}>
@@ -28,7 +28,7 @@ const SpendingChart = () => {
           <XAxis dataKey="category" />
           <YAxis />
           <Tooltip />
-          <Bar dataKey="amount" fill="#8884d8" />
+          <Bar dataKey="amount" fill="#006400" />
         </BarChart>
       </ResponsiveContainer>
     </div>
